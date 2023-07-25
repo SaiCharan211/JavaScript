@@ -1,12 +1,12 @@
-let List1=["Arjun","Adwait","Swapnil","Amit","Vishal","Adnan"]
+let list1=["Arjun","Adwait","Swapnil","Amit","Vishal","Adnan"]
 
-let List2=["Adwait", "Laxman","Amit","Adnan","Nitin","Gaurav"]
+let list2=["Adwait", "Laxman","Amit","Adnan","Nitin","Gaurav"]
 
-const a= List1.filter(name =>!List2.includes(name))
+const a= list1.filter(name =>!list2.includes(name))
 console.log(a)
 
-const b=List2.filter(name=>!List1.includes(name))
+const b=list2.filter(name=>!list1.includes(name))
 console.log(b)
 
-const c=List1.filter(name=> List2.includes(name))
+const c=list1.filter(name=> list2.includes(name))
 console.log(c)
